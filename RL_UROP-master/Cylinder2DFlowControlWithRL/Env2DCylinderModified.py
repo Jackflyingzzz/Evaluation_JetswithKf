@@ -43,8 +43,8 @@ import numpy as np
 import csv
 import scipy.signal as sgn
 import io
-#import pickle5 as pickle
-import pickle
+import pickle5 as pickle
+#import pickle
 # TODO: check that right types etc from tensorfoce examples
 # typically:
 
