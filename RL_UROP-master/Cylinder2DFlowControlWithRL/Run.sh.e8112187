@@ -1,0 +1,13 @@
+
+WARNING: Do not use these anaconda modules for new activities
+         Use a personal anaconda installation instead
+         module load anaconda3/personal
+         https://tinyurl.com/2977btc3 for more details
+
+Traceback (most recent call last):
+  File "/rds/general/user/jz1720/home/Evaluation_/RL_UROP-master/Cylinder2DFlowControlWithRL/single_runner.py", line 8, in <module>
+    from Env2DCylinderModified import Env2DCylinderModified
+  File "/rds/general/user/jz1720/home/Evaluation_/RL_UROP-master/Cylinder2DFlowControlWithRL/Env2DCylinderModified.py", line 111
+    transition_matrices = np.eye(64)
+                                   ^
+TabError: inconsistent use of tabs and spaces in indentation
